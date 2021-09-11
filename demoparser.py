@@ -7,8 +7,7 @@ endSig = "EndFileHere"  # Simple string for the program to detect when the progr
 
 
 def gatherLines(file):
-    parseLines = file.readlines()[-(len(
-        file.readlines()) - startLine):]  # Amount of lines minus the start line to determine how far to go back.
+    parseLines = file.readlines()[-(len(file.readlines()) - startLine):]  # Amount of lines minus the start line to determine how far to go back.
     parseLines.append(f"{endSig}")
     print(len(parseLines))
     return parseLines

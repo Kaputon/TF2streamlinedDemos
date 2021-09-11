@@ -1,16 +1,5 @@
 # This program goes through your events.txt file and creates a new text file with much more streamlined information.
 
-# Format:
-
-# (Demo name) < Copy and paste friendly
-#
-# TICKS -
-# (Original tick #) ; (Tick # minus 3000) < Original tick # and refined tick # so you don't accidentally skip the
-# important part of your demo.
-
-#------]]
-
-
 demo_file = "C:\\Program Files (x86)\\Steam\\SteamApps\\common\\Team Fortress 2\\tf\\demos\\_events.txt"  # Directory of your events.txt
 startLine = 44961  # What line should the program start at?
 endSig = "EndFileHere"  # Simple string for the program to detect when the program is finished. Should not be anything
